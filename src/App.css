@@ -1,6 +1,7 @@
 html,
 body {
   width: 100%;
+  font-family: arista;
 }
 
 @font-face {
@@ -19,4 +20,15 @@ body {
 .header img {
   margin: 0 -10px;
   margin-right: -6px;
+}
+
+.nav {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav>a {
+  margin: 2px 10px;
+
 }
