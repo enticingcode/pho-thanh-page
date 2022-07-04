@@ -6,13 +6,14 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Menu from "./components/Menu"
 import Contact from "./components/Contact"
+import { CSSTransition, TransitionGroup } from "react-transition-group"
 
 
 function App() {
   return (
 
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <Nav />
       <div className="content">
         <Routes>
@@ -22,7 +23,6 @@ function App() {
           <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
-
     </div>
   );
 }
