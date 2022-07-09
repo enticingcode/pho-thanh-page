@@ -2,7 +2,11 @@ html,
 body {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
 @font-face {
@@ -141,4 +145,52 @@ a:visited {
 .socials button:hover {
   cursor: pointer;
   transform: scale(1.2)
+}
+
+.menu--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu--category {
+  font-family: 'Times New Roman';
+}
+
+ul li {
+  list-style: none;
+}
+
+.app--background {
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/apps.jpg);
+  background-size: cover;
+}
+
+.pho--background {
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/pho.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.category--banner {
+  height: 180px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgba(29, 29, 29, 0.39);
+}
+
+.menu--category>li {
+  padding: 15px 0;
+}
+
+.banner--holder {
+  width: 60vw;
 }
