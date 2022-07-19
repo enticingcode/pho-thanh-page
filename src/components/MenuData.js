@@ -1,5 +1,4 @@
-
-const appetizers = [
+export const appetizers = [
     {
         id: "a1",
         name: "Goi cuon (Fresh Spring Roll)",
@@ -43,7 +42,7 @@ const appetizers = [
     },
 
 ]
-const phoBowls = [
+export const phoBowls = [
     {
         id: "p1",
         name: "Pho Dac Biet",
@@ -96,7 +95,7 @@ const phoBowls = [
     },
 ]
 
-const noodles = [
+export const noodles = [
     {
         id: "h1",
         name: "Huh Tieu",
@@ -119,7 +118,7 @@ const noodles = [
     }
 ]
 
-const sandwiches = [
+export const sandwiches = [
     {
         id: "bm1",
         name: "Banh Mi Thit Nguoi",
@@ -166,7 +165,7 @@ const sandwiches = [
     },
 ]
 
-const vermicelliNoodle = [
+export const vermicelliNoodle = [
     {
         id: "b1",
         name: "Bun Thit Nuong",
@@ -223,7 +222,7 @@ const vermicelliNoodle = [
     },
 ]
 
-const stirFriedNoodle = [
+export const stirFriedNoodle = [
 
     {
         id: "m1",
@@ -244,7 +243,7 @@ const stirFriedNoodle = [
     },
 ]
 
-const friedRice = [
+export const friedRice = [
 
     {
         id: "f1",
@@ -277,7 +276,7 @@ const friedRice = [
     },
 ]
 
-const hotPot = [
+export const hotPot = [
 
     {
         id: "hp1",
@@ -299,7 +298,7 @@ const hotPot = [
     },
 ]
 
-const comTamRiceDish = [
+export const comTamRiceDish = [
 
     {
         id: "c1",
@@ -311,7 +310,225 @@ const comTamRiceDish = [
         name: "Com Bi Thit Nuong",
         description: "Grilled pork and shredded pork with steam rice."
     },
+    {
+        id: "c3",
+        name: "Com cha Thit Nuong",
+        description: "Grilled pork and pork cake with steam rice."
+    },
+    {
+        id: "c4",
+        name: "Com bi Cha Thit Nuong",
+        description: "Grilled pork, pork cake and shredded pork."
+    },
+    {
+        id: "c5",
+        name: "Com Ga Nuong",
+        description: "Grilled white meat chicken with steam rice"
+    },
+    {
+        id: "c6",
+        name: "Com Bo Luc Lac",
+        description: "Dice beef toss in garlic sauce steam rice."
+    },
+    {
+        id: "c7",
+        name: "Com Suon bo",
+        description: "Korean BBQ short ribs (bone-in) with steam rice."
+    },
+    {
+        id: "c8",
+        name: "Com Rau Xao",
+        description: "Stir fried brocolli and meat with steam rice."
+    },
+    {
+        id: "c9",
+        name: "Com Xao Bong Cai Xanh",
+        description: "Stir fried broccoli and meat with steam rice."
+    },
+
+
 ]
 
 
-export { phoBowls, appetizers } 
+
+
+export const doChay = [
+    {
+        id: "v1",
+        name: "Goi Cuon Tofu - Tofu Spring Roll",
+        description: "2 rolls. Mixed tofu and sweet potato, rice noodle, lettuce, and mint wrapped in rice paper with peanut sauce. "
+    },
+
+    {
+        id: "v2",
+        name: "Com Chien Rau Cai - Vegetables Fried Rice",
+        description: "Add tofu for an additional charge."
+    },
+    {
+        id: "v3",
+        name: "Lo Mein Tofu",
+        description: "Stir-fried mixed vegetable and tofu with lo-mein."
+    },
+    {
+        id: "v4",
+        name: "Com Xao Chay",
+        description: "Stir-fried mixed tofu and vegetable served with steamed rice."
+    },
+    {
+        id: "v5",
+        name: "Bun Tofu",
+        description: "Spicy. Vermicelli noodle with stir-fried tofu and lemongrass."
+    },
+    {
+        id: "v6",
+        name: "Mi Xao Gion Chay",
+        description: "Stir-fried mixed vegetables and tofu on top of the crispy noodles."
+    },
+
+    {
+        id: "v7",
+        name: "Mi Xao Mem Chayy",
+        description: "Stir-fried mixed vegetable and tofu with soft egg noodle."
+    },
+]
+
+export const loMein = [
+    {
+        id: "l1",
+        name: "Pork Lo Mein",
+        description: ""
+    },
+    {
+        id: "l2",
+        name: "Beef Lo Mein",
+        description: ""
+    },
+    {
+        id: "l3",
+        name: "Chicken Lo Mein",
+        description: ""
+    },
+    {
+        id: "l4",
+        name: "Shrimp Lo Mein",
+        description: "Shrimp, chicken and beef."
+    },
+
+]
+
+export const kidsPho = [
+    {
+        id: "p2",
+        name: "Kits Pho Tai",
+        description: "Eye round steak."
+    },
+    {
+        id: "p4",
+        name: "Kits Pho tai Bo Vien",
+        description: "eye round steak and beef ball"
+    },
+    {
+        id: "p5",
+        name: "Kids Pho Tai Gan",
+        description: "Eye round steak and soft tendon"
+    },
+    {
+        id: "p6",
+        name: "Kids Pho Nam",
+        description: "Brisket"
+    },
+    {
+        id: "p7",
+        name: "Kids Pho Bo Vien",
+        description: "Beef ball."
+    },
+    {
+        id: "p8",
+        name: "Kids Pho Tai Nam Bo Vien",
+        description: "Eye round steak, brisket and beef ball."
+    },
+    {
+        id: "p9",
+        name: "Kids Pho Do Bien",
+        description: "Shrimp, squid and crab stick."
+    },
+    {
+        id: "p10",
+        name: "Kids Pho Ga",
+        description: "White meat chicken"
+    },
+    {
+        id: "p11",
+        name: "Kids Pho Rau CAi Va Tofu",
+        description: "Mixed vegetables and fried tofu."
+    },
+]
+
+export const thucuong = [
+    {
+        id: "soda",
+        name: "soda",
+        description: ""
+    },
+    {
+        id: "icedTea",
+        name: "Iced Tea",
+        description: ""
+    },
+    {
+        id: "hotTea",
+        name: "Hot Tea",
+        description: "Jasmine, Green tea"
+    },
+    {
+        id: "soyMilk",
+        name: "Soy Milk",
+        description: ""
+    },
+    {
+        id: "cafeSuaDa",
+        name: "Cafe Sua Da",
+        description: "Iced coffee with condensed milk."
+    },
+    {
+        id: "bubbleTea",
+        name: "Bubble Tea",
+        description: "Green tea, avocado, strawberry, mango, coconut, lychee, peach, milk tea, Thai tea real bean, water, bananas, pineapple, almond."
+    },
+]
+
+export const chefSpecial = [
+    {
+        id: "s1",
+        name: "Bun Bo Hue",
+        description: "Rice noodle with beef shank, tender Vietnamese ham, pork, pork let in spicy beef soup."
+    },
+    {
+        id: "s2",
+        name: "Hu Tieu Bo Kho",
+        description: "Phe noodle with beef stew."
+    },
+    {
+        id: "s3",
+        name: "Mi Bo Kho",
+        description: "Egg noodle with beef stew."
+    },
+    {
+        id: "s4",
+        name: "Banh Mi Bo Kho",
+        description: "Beef stew with bread."
+    },
+    {
+        id: "s5",
+        name: "Bo Luc Lac",
+        description: "Diced beef toss in garlic sauce served with steam rice."
+    },
+    {
+        id: "s6",
+        name: "Korean BBQ",
+        description: "Short rib with stream rice."
+    },
+
+]
+
+

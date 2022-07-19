@@ -150,12 +150,15 @@ a:visited {
 .menu--container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .menu--category {
   font-family: 'Times New Roman';
+  width: 50%;
+  margin: 30px 0;
+  padding: 0 40px;
 }
 
 ul li {
@@ -170,12 +173,115 @@ ul li {
 }
 
 .pho--background {
+  width: 100%;
   display: flex;
   justify-content: center;
   background: url(./assets/bannerImages/pho.jpeg);
   background-size: cover;
   background-position: center;
 }
+
+.noodles--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/noodlesEggWonton.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.vermicelli--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/vermicelli.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.stirFriedNoodle--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/stirFriedNoodles.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.friedRice--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/friedRice.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.hotPot--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/hotpot.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.camTamRiceDish--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/camTam.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.doChay--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/loMeinTofu.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.loMein--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/beefLoMein.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.kidsPho--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/kidsPho.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.thucuong--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/cafeSuaDa.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.chefSpecial--background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(./assets/bannerImages/bunBoHue.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
 
 .category--banner {
   height: 180px;
@@ -191,6 +297,4 @@ ul li {
   padding: 15px 0;
 }
 
-.banner--holder {
-  width: 60vw;
-}
+.banner--holder {}
