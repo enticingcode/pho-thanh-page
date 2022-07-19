@@ -30,122 +30,129 @@ const Menu = () => {
 
 
     return (
-        <div className="menu--container">
+        <>
 
-            <ul className="appetizers menu--category">
-                <div className="app--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Appetizers</h1>
-                    </div>
-                </div>
-                {getMenuItems(menuDir.appetizers)}
-            </ul>
 
-            <ul className="pho menu--category">
-                <div className="pho--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Pho</h1>
-                    </div>
-                </div>
-                {getMenuItems(menuDir.phoBowls)}
-            </ul>
+            <div className="menu--container">
 
-            <ul className="noodles menu--category">
-                <div className="noodles--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Noodles</h1>
+                <ul className="appetizers menu--category">
+                    <div className="app--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Appetizers</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.noodles)}
-            </ul>
+                    {getMenuItems(menuDir.appetizers)}
+                </ul>
 
-            <ul className="vermicelli menu--category">
-                <div className="vermicelli--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Vermicelli</h1>
+                <ul className="pho menu--category">
+                    <div className="pho--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Pho</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.vermicelliNoodle)}
-            </ul>
+                    {getMenuItems(menuDir.phoBowls)}
+                </ul>
 
-            <ul className="stirFriedNoodle menu--category">
-                <div className="stirFriedNoodle--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Stir Fried Noodles</h1>
+                <ul className="noodles menu--category">
+                    <div className="noodles--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Noodles</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.stirFriedNoodle)}
-            </ul>
+                    {getMenuItems(menuDir.noodles)}
+                </ul>
 
-            <ul className="friedRice menu--category">
-                <div className="friedRice--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Fried Rice</h1>
+                <ul className="vermicelli menu--category">
+                    <div className="vermicelli--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Vermicelli</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.friedRice)}
-            </ul>
+                    {getMenuItems(menuDir.vermicelliNoodle)}
+                </ul>
 
-            <ul className="hotPot menu--category">
-                <div className="hotPot--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Hot Pot</h1>
+                <ul className="stirFriedNoodle menu--category">
+                    <div className="stirFriedNoodle--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Stir Fried Noodles</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.hotPot)}
-            </ul>
+                    {getMenuItems(menuDir.stirFriedNoodle)}
+                </ul>
 
-            <ul className="camTamRiceDish menu--category">
-                <div className="camTamRiceDish--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Cam Tam - Rice Dish</h1>
+                <ul className="friedRice menu--category">
+                    <div className="friedRice--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Fried Rice</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.comTamRiceDish)}
-            </ul>
+                    {getMenuItems(menuDir.friedRice)}
+                </ul>
 
-            <ul className="doChay menu--category">
-                <div className="doChay--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Do Chay</h1>
+                <ul className="hotPot menu--category">
+                    <div className="hotPot--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Hot Pot</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.doChay)}
-            </ul>
+                    {getMenuItems(menuDir.hotPot)}
+                </ul>
 
-            <ul className="loMein menu--category">
-                <div className="loMein--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Lo Mein</h1>
+                <ul className="camTamRiceDish menu--category">
+                    <div className="camTamRiceDish--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Cam Tam - Rice Dish</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.loMein)}
-            </ul>
-            <ul className="kidsPho menu--category">
-                <div className="kidsPho--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Kid's Pho</h1>
+                    {getMenuItems(menuDir.comTamRiceDish)}
+                </ul>
+
+                <ul className="doChay menu--category">
+                    <div className="doChay--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Do Chay</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.kidsPho)}
-            </ul>
-            <ul className="thucuong menu--category">
-                <div className="thucuong--background banner--holder">
-                    <div className="category--banner">
-                        <h1>ThuCuong - Beverages</h1>
+                    {getMenuItems(menuDir.doChay)}
+                </ul>
+
+                <ul className="loMein menu--category">
+                    <div className="loMein--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Lo Mein</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.thucuong)}
-            </ul>
-            <ul className="chefSpecial menu--category">
-                <div className="chefSpecial--background banner--holder">
-                    <div className="category--banner">
-                        <h1>Chef Specials</h1>
+                    {getMenuItems(menuDir.loMein)}
+                </ul>
+                <ul className="kidsPho menu--category">
+                    <div className="kidsPho--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Kid's Pho</h1>
+                        </div>
                     </div>
-                </div>
-                {getMenuItems(menuDir.chefSpecial)}
-            </ul>
-        </div>
+                    {getMenuItems(menuDir.kidsPho)}
+                </ul>
+                <ul className="thucuong menu--category">
+                    <div className="thucuong--background banner--holder">
+                        <div className="category--banner">
+                            <h1>ThuCuong - Beverages</h1>
+                        </div>
+                    </div>
+                    {getMenuItems(menuDir.thucuong)}
+                </ul>
+                <ul className="chefSpecial menu--category">
+                    <div className="chefSpecial--background banner--holder">
+                        <div className="category--banner">
+                            <h1>Chef Specials</h1>
+                        </div>
+                    </div>
+                    {getMenuItems(menuDir.chefSpecial)}
+                </ul>
+
+            </div>
+            {/* <div className="bg--fade"></div>
+            <div className="menu--bg--container"></div> */}
+        </>
     )
 }
 

@@ -467,7 +467,7 @@ export const kidsPho = [
 export const thucuong = [
     {
         id: "soda",
-        name: "soda",
+        name: "Soda",
         description: ""
     },
     {
