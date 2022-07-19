@@ -136,10 +136,182 @@ const sandwiches = [
         description: "Grilled pork sandwich. No mayonnaise and pate."
     },
 
+    {
+        id: "bm4",
+        name: "Banh Mi Xa Xiu",
+        description: "Char sui sandwich."
+    },
 
+    {
+        id: "bm5",
+        name: "Banh Mi Bi",
+        description: "Shredded pork sandwich. No mayonnaise and pate."
+    },
+    {
+        id: "bm6",
+        name: "Banh Mi Ga Nuong",
+        description: "Grilled chicken sandwich. No Mayonnaise and pate."
+    },
 
+    {
+        id: "bm7",
+        name: "Banh Mi Bo",
+        description: "Beef sandwich. No mayonnaise and pate."
+    },
 
-
+    {
+        id: "bm8",
+        name: "Banh Mi Tofu",
+        description: "Tofu sandwich. No mayonnaise and pate."
+    },
 ]
+
+const vermicelliNoodle = [
+    {
+        id: "b1",
+        name: "Bun Thit Nuong",
+        description: "Grilled pork."
+    },
+
+    {
+        id: "b2",
+        name: "Bun Thit Nuong Cha Gio",
+        description: "Grilled pork and egg rolls."
+    },
+
+    {
+        id: "b3",
+        name: "Bun Bi Thit Nuong Cha Gio",
+        description: "Grilled pork, shredded pork and egg roll."
+    },
+
+    {
+        id: "b4",
+        name: "Bun Tom Nuong",
+        description: "Grilled shrimp"
+    },
+    {
+        id: "b5",
+        name: "Bun Tom Thit Nuong",
+        description: "Grilled pork and grilled shrimp."
+    },
+    {
+        id: "b6",
+        name: "Bun Thap Cam Combination",
+        description: "Grilled pork, shrimp, shredded pork, and egg roll."
+    },
+
+    {
+        id: "b7",
+        name: "Bun Ga Nuong",
+        description: "Grilled white meat chicken"
+    },
+    {
+        id: "b8",
+        name: "Bun Bo Xao Sa",
+        description: "Spicy stir fried beef and lemongrass"
+    },
+    {
+        id: "b9",
+        name: "Bun Nem Nuong",
+        description: "Fried pork patty"
+    },
+    {
+        id: "b10",
+        name: "Bun Ga Xao Sa",
+        description: "Spicy stir fried chicken and lemongrass"
+    },
+]
+
+const stirFriedNoodle = [
+
+    {
+        id: "m1",
+        name: "Mi Xao Gion",
+        description: "Crispy noodle. Stir-fried mixed vegetables and meat on the tap of crispy noodles."
+    },
+
+    {
+        id: "m2",
+        name: "Mi Xao Mem",
+        description: "Soft egg noodle. Stir-fried mixed vegetables and meat with soft egg noodles."
+    },
+
+    {
+        id: "m3",
+        name: "Pho Xao Ap Chao",
+        description: "Flat noodle. Stir-fried mixed vegetables and meat with flat noodles."
+    },
+]
+
+const friedRice = [
+
+    {
+        id: "f1",
+        name: "Chicken Fried Rice",
+        description: ""
+    },
+
+    {
+        id: "f2",
+        name: "Beef Fried Rice",
+        description: ""
+    },
+
+    {
+        id: "f3",
+        name: "Pork Fried Rice",
+        description: ""
+    },
+
+    {
+        id: "f4",
+        name: "Shrimp Fried Rice",
+        description: ""
+    },
+
+    {
+        id: "f5",
+        name: "Combination Fried Rice",
+        description: ""
+    },
+]
+
+const hotPot = [
+
+    {
+        id: "hp1",
+        name: "Seafood Hot Pot with Pork Broth",
+        description: "Served with egg noodle."
+    },
+
+    {
+        id: "hp2",
+        name: "Thai Seafood Hot Pot with Hot & Sour Broth",
+        description: "Served with vermicelli noodle"
+    },
+
+    {
+        id: "hp3",
+        name: "Hot Pot",
+        description: "Choice of noodle, meat and broth. Extra meat, noodle and veggie for an additonal charge.",
+
+    },
+]
+
+const comTamRiceDish = [
+
+    {
+        id: "c1",
+        name: "Com Thit Nuong",
+        description: "Grilled pork with steamed rice."
+    },
+    {
+        id: "c2",
+        name: "Com Bi Thit Nuong",
+        description: "Grilled pork and shredded pork with steam rice."
+    },
+]
+
 
 export { phoBowls, appetizers } 

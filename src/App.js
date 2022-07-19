@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
@@ -6,7 +6,6 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Menu from "./components/Menu"
 import Contact from "./components/Contact"
-import { CSSTransition, TransitionGroup } from "react-transition-group"
 
 
 function App() {
