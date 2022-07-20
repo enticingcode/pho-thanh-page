@@ -16,25 +16,12 @@ const Menu = () => {
         })
     }
 
-
-    // const appetizerMenu = appetizers.map(item => {
-    //     return (
-    //         <div>
-    //             <h1>{item.name}</h1>
-    //             <h3>{item.description}</h3>
-    //         </div>
-    //     )
-    // })
-
-
-
-
     return (
         <>
-
-
             <div className="menu--container">
 
+                <div className="bg--fade"></div>
+                <div className="menu--bg--container"></div>
                 <ul className="appetizers menu--category">
                     <div className="app--background banner--holder">
                         <div className="category--banner">
@@ -150,8 +137,7 @@ const Menu = () => {
                 </ul>
 
             </div>
-            {/* <div className="bg--fade"></div>
-            <div className="menu--bg--container"></div> */}
+
         </>
     )
 }

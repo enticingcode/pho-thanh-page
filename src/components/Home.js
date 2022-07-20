@@ -6,9 +6,11 @@ const Home = () => {
     return (
         <>
             <div className='home'>
-                <h2>Welcome to
-                    <h1>PHO THANH II</h1>
-                </h2>
+                <h1>Welcome to
+                    <div>
+                        <h2>PHO THANH II</h2>
+                    </div>
+                </h1>
                 <div className="socials">
                     <form target="_blank"
                         method="GET"
