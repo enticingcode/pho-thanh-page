@@ -362,4 +362,16 @@ ul li {
   align-items: center;
   height: 100%;
   width: 100%;
+
+}
+
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 950px) {
+  nav>a {
+    position: absolute;
+    left: 500px;
+  }
 }

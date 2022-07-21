@@ -9,7 +9,14 @@ class Nav extends Component {
                 <NavLink to="menu">Menu</NavLink>
                 <NavLink to="about">About</NavLink>
                 <NavLink to="contact">Contact</NavLink>
+
+                <div className="hamburger">
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </div>
             </nav>
+
         )
     }
 }
