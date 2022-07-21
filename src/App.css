@@ -346,7 +346,7 @@ ul li {
 }
 
 .menu--category>li {
-  padding: 15px 0;
+  padding: 15px 2px;
 }
 
 .menu--bg--container {
@@ -440,10 +440,12 @@ a {
 }
 
 @media only screen and (max-width: 950px) {
+
   .google--maps {
     width: 300px;
     height: 200px;
   }
+
 
   .nav-menu {
     position: fixed;
@@ -472,7 +474,7 @@ a {
   }
 
   .nav-item {
-    margin: 2.5rem 0;
+    margin: 2rem 0;
   }
 
   .hamburger {
@@ -480,8 +482,9 @@ a {
     cursor: pointer;
   }
 
+
   .menu--category {
-    width: 98%;
+    width: 96%;
   }
 
   .carousel {
