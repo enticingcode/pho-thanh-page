@@ -12,6 +12,9 @@ function Nav() {
     function goHome() {
         setShowBurgerMenu(false)
     }
+
+
+    // come back and take off active status from main logo link to stop it from staying big
     return (
         <nav className="navbar">
             <NavLink

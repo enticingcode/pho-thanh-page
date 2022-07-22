@@ -24,7 +24,7 @@ const Contact = () => {
                 <section className="contact--info">
                     <h1>Contact Us!</h1>
                     <p>637 E Joyce Blvd, Fayetteville, AR 72703</p>
-                    <p>Phone: (479) 966-4200</p>
+                    <a href="tel:4799664200">Phone: (479) 966-4200</a>
                 </section>
                 <section className="directions">
                     <h2>Or Come visit us: </h2>

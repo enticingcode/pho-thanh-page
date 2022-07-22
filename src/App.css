@@ -47,7 +47,6 @@ body {
   align-items: center;
   padding: 1rem 1.5rem;
   box-shadow: 1px 1px 3px 5px rgba(0, 0, 0, 0.568);
-
 }
 
 .nav-menu {
@@ -64,7 +63,6 @@ body {
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
-  color: #070708;
   margin: 0 10px;
   text-decoration: none;
   padding: 15px;
@@ -74,11 +72,18 @@ a {
   color: black;
 }
 
+a:hover {
+  color: rgb(216, 160, 77)
+}
+
 .nav--logo {
   display: flex;
   align-items: flex-start;
 }
 
+.nav--logo h1 {
+  color: rgb(216, 160, 77) !important;
+}
 
 
 .logo--pic {
@@ -86,12 +91,12 @@ a {
 
 }
 
-a:visited {
-  text-decoration: none;
+.contact--info>a {
+  color: rgb(180, 133, 62);
 }
 
-.nav-link:visited {
-  color: black;
+a:visited {
+  text-decoration: none;
 }
 
 .active {
