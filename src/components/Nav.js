@@ -13,13 +13,17 @@ function Nav() {
         setShowBurgerMenu(false)
     }
 
+    React.useEffect(() => {
+        console.log(showBurgerMenu)
+    })
+
 
     // come back and take off active status from main logo link to stop it from staying big
     return (
         <nav className="navbar">
             <NavLink
                 to="/"
-                className="nav-link"
+                className="logo-link"
                 onClick={goHome}>
                 <div className="nav--logo">
                     <img className="logo--pic" src={phoThanhLogo}></img>

@@ -11,6 +11,7 @@ const Home = () => {
                         <h2>PHO THANH II</h2>
                     </div>
                 </h1>
+
                 <div className="socials">
                     <form target="_blank"
                         method="GET"
@@ -28,7 +29,6 @@ const Home = () => {
                     </form>
                 </div>
             </div>
-
             <div className="bg-image"></div>
 
 

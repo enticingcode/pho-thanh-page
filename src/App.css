@@ -68,6 +68,14 @@ body {
   padding: 15px;
 }
 
+.logo-link {
+  padding: 7px;
+}
+
+.logo-link:hover {
+  text-decoration: none;
+}
+
 a {
   color: black;
 }
@@ -105,7 +113,7 @@ a:visited {
 
 .nav-link:hover {
   text-decoration: none;
-  transform: scale(1.2);
+  transform: scale(1.1);
   text-shadow: 1px 1px 1px #000;
 }
 
@@ -212,6 +220,12 @@ a:visited {
   background-color: rgba(0, 0, 0, 0.459);
   color: white;
 }
+
+.menu--category h2 {
+  font-size: 1.5rem;
+}
+
+
 
 ul li {
   list-style: none;
@@ -351,7 +365,7 @@ ul li {
 }
 
 .menu--category>li {
-  padding: 15px 2px;
+  padding: 15px 20px;
 }
 
 .menu--bg--container {
@@ -442,7 +456,45 @@ a {
 .google--maps {
   width: 600px;
   height: 450px;
+
 }
+
+
+.contact--floater {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 0;
+  z-index: 5;
+  background-color: rgb(36, 33, 30);
+  padding: 7px;
+}
+
+.contact--floater>a {
+  color: white;
+}
+
+.contact--floater>a:hover {
+  color: rgb(218, 218, 218);
+
+}
+
+
+.contact--floater>a:hover {
+  text-decoration: none;
+}
+
+
+/* MOBILE RESPONSIVENESS */
+
+/* @media (hover: hover) {
+  nav-link:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+    text-shadow: 1px 1px 1px #000;
+  }
+} */
 
 @media only screen and (max-width: 950px) {
 
@@ -451,11 +503,21 @@ a {
     height: 200px;
   }
 
+  .contact--floater {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(216, 181, 135);
+  }
+
+  .contact--floater:hover {
+    background-color: rgb(206, 160, 96);
+  }
 
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 7.5rem;
+    top: 6.5rem;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     width: 100%;
