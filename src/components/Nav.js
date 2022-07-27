@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import phoThanhLogo from "../assets/images/phoThanhLogo.jpg"
+import "../styles/Nav.css"
 
 function Nav() {
 
@@ -9,12 +10,15 @@ function Nav() {
     function toggleActive() {
         setShowBurgerMenu(prevState => !prevState)
     }
+
     function goHome() {
         setShowBurgerMenu(false)
     }
 
+
     React.useEffect(() => {
         console.log(showBurgerMenu)
+
     })
 
 

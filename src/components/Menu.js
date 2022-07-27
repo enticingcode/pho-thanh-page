@@ -1,6 +1,6 @@
 import React from 'react'
 import * as menuDir from "./MenuData"
-
+import "../styles/Menu.css"
 
 
 const Menu = () => {
