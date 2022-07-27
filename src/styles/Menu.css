@@ -167,3 +167,18 @@
     color: white;
     background-color: rgba(29, 29, 29, 0.39);
 }
+
+
+
+@media only screen and (max-width: 950px) {
+
+
+
+
+    .menu--category {
+        width: 96%;
+    }
+
+
+
+}

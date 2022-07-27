@@ -21,27 +21,6 @@ body {
   height: 100%;
 }
 
-
-.header {
-  display: flex;
-  justify-content: center;
-  font-size: 3rem;
-  color: white;
-  background-color: rgba(2, 1, 1, 0.158);
-  -webkit-text-stroke: .5px black;
-  height: 370px;
-  align-items: flex-end;
-  box-shadow: 1px 1px -3px black;
-}
-
-.header img {
-  margin: 0 -10px;
-  margin-right: -6px;
-  width: 40px;
-}
-
-
-
 a {
   color: black;
 }
@@ -51,12 +30,6 @@ a:hover {
 }
 
 
-
-
-.logo--pic {
-  width: 50px;
-
-}
 
 .contact--info>a {
   color: rgb(180, 133, 62);
@@ -87,8 +60,6 @@ a:visited {
   z-index: -1;
   overflow: hidden;
 }
-
-
 
 
 .bg-image {
@@ -180,28 +151,7 @@ ul li {
 
 
 
-.carousel-item {
-  width: 100%;
-}
 
-.carousel {
-  width: 550px;
-  margin-top: 100px;
-}
-
-.aboutBlurb {
-  text-align: center;
-  padding: 50px;
-}
-
-.aboutContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-
-}
 
 .bar {
   display: block;
@@ -219,103 +169,4 @@ li {
 
 a {
   text-decoration: none;
-}
-
-.contact--container {
-  padding: 30px;
-  justify-content: space-around;
-  background-color: rgba(173, 169, 169, 0.5);
-  width: 80%;
-  height: 60%;
-  display: flex;
-  align-items: center;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-
-.contact--info {
-  margin-right: 20px;
-}
-
-.google--maps {
-  width: 600px;
-  height: 450px;
-
-}
-
-
-.contact--floater {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  bottom: 0;
-  z-index: 5;
-  background-color: rgb(36, 33, 30);
-  padding: 7px;
-}
-
-.contact--floater>a {
-  color: white;
-}
-
-.contact--floater>a:hover {
-  color: rgb(218, 218, 218);
-
-}
-
-
-.contact--floater>a:hover {
-  text-decoration: none;
-}
-
-
-
-@media only screen and (max-width: 950px) {
-
-  .google--maps {
-    width: 300px;
-    height: 200px;
-  }
-
-  .contact--floater {
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    background-color: rgb(216, 181, 135);
-  }
-
-  .contact--floater:hover {
-    background-color: rgb(206, 160, 96);
-  }
-
-
-  .contact--container {
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    height: 100%;
-  }
-
-
-
-
-  .menu--category {
-    width: 96%;
-  }
-
-  .carousel {
-    width: 100%;
-  }
-
-  .map--image {
-    display: none;
-  }
-
-  .contact--info {
-    margin: 0;
-  }
-
 }
