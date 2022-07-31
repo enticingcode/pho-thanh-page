@@ -10,20 +10,17 @@ import HoverContact from "./components/HoverContact"
 function App() {
   return (
 
-    <div className="App">
+    <>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="Menu" element={<Menu />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
+      <HoverContact />
 
-      <div className="content">
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="Menu" element={<Menu />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-        </Routes>
-        <HoverContact />
-
-      </div>
-    </div>
+    </>
   );
 }
 

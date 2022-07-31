@@ -13,11 +13,9 @@ const About = () => {
             <div className="aboutContainer">
                 <ImageCarousel />
                 <div className="aboutBlurb">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo ullamcorper a lacus vestibulum sed arcu non.
-                        <p>Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Lacus sed viverra tellus in. Consequat nisl vel pretium lectus. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Faucibus vitae aliquet nec ullamcorper sit amet. </p>
-
-                        <p>egestas quis ipsum suspendisse ultrices. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Mattis aliquam faucibus purus in massa tempor nec feugiat nisl. Aliquet nibh praesent tristique magna. Elit ut aliquam purus sit amet luctus. At in tellus integer feugiat.</p>
-                    </p>
+                    <p>Humbly located in Northwest Arkansas, Pho Thanh II serves unique authentic Vietnamese cuisine like no other in the area.</p>
+                    <p>We pride ourselves in bringing the taste of Vietnamese food right here to the bussling little city of Fayettville, Arkansas.</p>
+                    <p>Make sure to stop by!</p>
                 </div>
             </div>
 

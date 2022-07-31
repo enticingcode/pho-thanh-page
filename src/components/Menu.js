@@ -21,8 +21,8 @@ const Menu = () => {
         <>
             <div className="menu--container">
 
-                <div className="bg--fade"></div>
-                <div className="menu--bg--container"></div>
+                {/* <div className="bg--fade"></div>
+                <div className="menu--bg--container"></div> */}
                 <ul className="appetizers menu--category">
                     <div className="app--background banner--holder">
                         <div className="category--banner">

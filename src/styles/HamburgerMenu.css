@@ -48,3 +48,15 @@
     stroke-dashoffset: -134;
     stroke-width: 6;
 }
+
+
+
+
+@media only screen and (min-width: 950px) {
+    .menu {
+        display: none;
+    }
+
+
+
+}

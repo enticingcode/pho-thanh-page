@@ -1,6 +1,6 @@
 .swiper {
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 
 
@@ -12,19 +12,35 @@
 .slide-1 {
     background-image: url(../assets/images/storeFront.jpg);
     background-size: cover;
+    background-position: center;
+
 
 }
 
 .slide-2 {
     background-image: url(../assets/images/storeInside.jpg);
     background-size: cover;
+    background-position: center;
+
 }
 
 .slide-3 {
     background-image: url(../assets/images/pho3.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .swiper-scrollbar-drag {
     background-color: rgba(255, 255, 255, 0.747);
+}
+
+
+
+@media only screen and (min-width: 950px) {
+
+    .swiper {
+        width: 60%;
+        height: 500px;
+    }
+
 }

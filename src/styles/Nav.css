@@ -1,9 +1,14 @@
 .navbar {
     display: flex;
+    position: fixed;
     justify-content: space-between;
+    background-color: white;
     align-items: center;
+    top: 0;
+    left: 0;
     width: 100%;
     padding: 3px 5px;
+    z-index: 10;
 }
 
 .logo-link {
@@ -69,6 +74,7 @@
 
     .nav-menu.active {
         left: 0;
+        opacity: 1;
     }
 
     .nav-item {
@@ -78,15 +84,22 @@
     .nav-menu {
         position: fixed;
         left: -100%;
+        opacity: 0;
         top: 6.5rem;
         flex-direction: column;
         background-color: rgb(216, 181, 135);
         height: 70%;
         width: 100%;
         text-align: center;
-        transition: 0.3s;
+        transition: .7s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
         z-index: 6;
     }
 
+}
+
+@media only screen and (min-width:950px) {
+    .active {
+        color: rgb(216, 160, 77)
+    }
 }

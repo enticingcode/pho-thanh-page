@@ -28,12 +28,14 @@ const Home = () => {
                         </button>
                     </form>
                 </div>
+                <div className='info-container'>
+                    <p>637 E Joyce Blvd, Fayetteville, AR 72703</p>
+                    <p>Hours</p>
+                    <p>Mon-Sun / 10:30am - 8pm</p>
+                </div>
             </div>
             <div className="bg-image"></div>
 
-            <div className='info-container'>
-
-            </div>
         </>
     )
 }

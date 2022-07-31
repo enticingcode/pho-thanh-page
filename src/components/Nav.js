@@ -6,27 +6,26 @@ import HamburgerMenu from './HamburgerMenu';
 
 function Nav() {
 
-    const [showBurgerMenu, setShowBurgerMenu] = React.useState(false);
-
-    function toggleActive() {
-        showMenu(prevState => !prevState)
-    }
-
-    function goHome() {
-        setShowBurgerMenu(false)
-    }
-
-
     const [showMenu, setShowMenu] = React.useState(false);
 
+    function toggleActive() {
+        if (showMenu === true) {
+            animateBurger();
+        }
+        setShowMenu(false)
+    }
 
-    function burgerAnimation() {
+
+    function animateBurger() {
         const button = document.querySelector("#burger")
         button.classList.toggle("opened")
         setShowMenu(prev => !prev)
-        //.setAttribute("aria-expanded").classList.contains("opened")
+
     }
 
+    React.useEffect(() => {
+        console.log(showMenu)
+    }, [showMenu])
 
 
     return (
@@ -34,7 +33,7 @@ function Nav() {
             <NavLink
                 to="/"
                 className="logo-link"
-                onClick={goHome}>
+                onClick={toggleActive}>
                 <div className="nav--logo">
                     <img className="logo--pic" src={phoThanhLogo}></img>
                     <h1>II</h1>
@@ -69,7 +68,7 @@ function Nav() {
             </ul>
 
             <HamburgerMenu
-                burgerAnimation={burgerAnimation} />
+                animateBurger={animateBurger} />
 
         </nav >
 
