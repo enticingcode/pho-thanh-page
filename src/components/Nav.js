@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
-import phoThanhLogo from "../assets/images/phoThanhLogo.jpg"
+import phoThanhLogo from "../assets/images/pho-logo.png"
 import "../styles/Nav.css"
+import HamburgerMenu from './HamburgerMenu';
 
 function Nav() {
 
     const [showBurgerMenu, setShowBurgerMenu] = React.useState(false);
 
     function toggleActive() {
-        setShowBurgerMenu(prevState => !prevState)
+        showMenu(prevState => !prevState)
     }
 
     function goHome() {
@@ -16,13 +17,18 @@ function Nav() {
     }
 
 
-    React.useEffect(() => {
-        console.log(showBurgerMenu)
-
-    })
+    const [showMenu, setShowMenu] = React.useState(false);
 
 
-    // come back and take off active status from main logo link to stop it from staying big
+    function burgerAnimation() {
+        const button = document.querySelector("#burger")
+        button.classList.toggle("opened")
+        setShowMenu(prev => !prev)
+        //.setAttribute("aria-expanded").classList.contains("opened")
+    }
+
+
+
     return (
         <nav className="navbar">
             <NavLink
@@ -35,7 +41,7 @@ function Nav() {
                 </div>
             </NavLink>
 
-            <ul className={`nav-menu ${showBurgerMenu ? "active" : ""}`}>
+            <ul className={`nav-menu ${showMenu ? "active" : ""}`}>
                 <li className="nav-item">
                     <NavLink
                         to="/"
@@ -61,12 +67,10 @@ function Nav() {
                         onClick={toggleActive}>Contact</NavLink>
                 </li>
             </ul>
-            <div onClick={toggleActive}
-                className="hamburger">
-                <span className="bar"></span>
-                <span className="bar"></span>
-                <span className="bar"></span>
-            </div>
+
+            <HamburgerMenu
+                burgerAnimation={burgerAnimation} />
+
         </nav >
 
     )

@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
-    box-shadow: 1px 1px 3px 5px rgba(0, 0, 0, 0.568);
+    width: 100%;
+    padding: 3px 5px;
 }
 
 .logo-link {
@@ -72,7 +72,7 @@
     }
 
     .nav-item {
-        margin: 2rem 0;
+        margin: 1rem 0;
     }
 
     .nav-menu {
@@ -80,12 +80,13 @@
         left: -100%;
         top: 6.5rem;
         flex-direction: column;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(216, 181, 135);
+        height: 70%;
         width: 100%;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-        z-index: 5;
+        z-index: 6;
     }
 
 }

@@ -1,6 +1,6 @@
 .aboutBlurb {
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .aboutContainer {
@@ -9,7 +9,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
-
 }
 
 .carousel-item {
@@ -21,13 +20,6 @@
     margin-top: 100px;
 }
 
-
-@media only screen and (max-width: 950px) {
-
-
-    .carousel {
-        width: 100%;
-    }
-
-
+.aboutBlurb>p {
+    padding: 10px 30px;
 }

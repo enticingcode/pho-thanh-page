@@ -31,7 +31,9 @@ const Home = () => {
             </div>
             <div className="bg-image"></div>
 
+            <div className='info-container'>
 
+            </div>
         </>
     )
 }
