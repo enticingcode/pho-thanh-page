@@ -5,13 +5,17 @@ import "../styles/Menu.css"
 
 const Menu = () => {
 
+    let dollarFormatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
+
     function getMenuItems(menuCategory) {
         return menuCategory.map(item => {
             return (
                 <li key={item.id}>
                     <h2>{item.name}</h2>
                     <p>{item.description}</p>
-                    <p className="price">{item.price}</p>
+                    <p className="price">
+                        {dollarFormatter.format(item.price)}
+                    </p>
                 </li>
             )
         })
