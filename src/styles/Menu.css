@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(252, 252, 241);
 }
 
 .menu--category {
@@ -179,9 +180,16 @@ li>p {
 @media only screen and (min-width: 950px) {
 
     .menu--category {
-        width: 50%;
+        max-width: 400px;
     }
 
+    .menu--container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
 
 
 }

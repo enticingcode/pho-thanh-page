@@ -1,10 +1,10 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper"
+import { Navigation, Scrollbar } from "swiper"
 
 import "swiper/css"
 import "swiper/css/scrollbar"
-import "swiper/css/pagination"
+import "swiper/css/navigation"
 
 import "../styles/ImageCarousel.css"
 // Import Swiper styles
@@ -16,9 +16,8 @@ export default () => {
             modules={[Scrollbar, Navigation]}
             spaceBetween={20}
             slidesPerView={1}
-            navigation
             scrollbar={{ draggable: true }}
-            pagination={{ clickable: true }}
+            navigation={true}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
         >
