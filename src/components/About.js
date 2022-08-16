@@ -1,7 +1,4 @@
 import React from 'react'
-import slide1 from "../assets/images/storeFront.jpg"
-import slide2 from "../assets/images/storeInside.jpg"
-import slide3 from "../assets/images/aboutpho.jpg"
 import '../styles/About.css'
 
 
