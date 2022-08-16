@@ -4,7 +4,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(233, 199, 156);
+    margin-top: 7.1rem;
+    background-color: rgb(252, 252, 241);
 }
 
 .menu--category {
@@ -24,7 +25,7 @@
 }
 
 li>p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: sans-serif;
 }
 
@@ -175,6 +176,31 @@ li>p {
     background-color: rgba(29, 29, 29, 0.39);
 }
 
+.menu--links {
+    display: none;
+    padding: 10px;
+    flex-flow: wrap;
+    justify-content: center;
+    position: fixed;
+    top: 7.1rem;
+    right: 0;
+    background-color: bisque;
+
+}
+
+.menu--links a {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(205, 170, 57, 0.274);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.menu--separator {
+    width: 100%;
+    border-top: 1px solid white;
+    margin: 8px 0;
+}
 
 
 @media only screen and (min-width: 950px) {

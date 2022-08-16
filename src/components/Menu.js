@@ -1,9 +1,12 @@
 import React from 'react'
 import * as menuDir from "./MenuData"
 import "../styles/Menu.css"
+import chevronUp from "../assets/images/chevronUp.svg"
+import chevronDown from "../assets/images/chevronDown.svg"
 
 
 const Menu = () => {
+
 
     let dollarFormatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 
@@ -12,6 +15,8 @@ const Menu = () => {
             return (
                 <li key={item.id}>
                     <h2>{item.name}</h2>
+                    <p><em>{item.engName}</em></p>
+                    <div className='menu--separator'></div>
                     <p>{item.description}</p>
                     <p className="price">
                         {dollarFormatter.format(item.price)}
@@ -21,13 +26,30 @@ const Menu = () => {
         })
     }
 
+
+
     return (
         <>
+            <div className='menu--links'>
+                <a href='#appetizers'>Appetizers</a>
+                <a href='#pho'>Pho</a>
+                <a href='#noodles'>Noodles</a>
+                <a href='#vermicelli'>Vermicelli</a>
+                <a href='#stirFry'>Stir Fry</a>
+                <a href='#friedRice'>Fried Rice</a>
+                <a href='#hotPot'>Hot Pot</a>
+                <a href='#riceDish'>Rice Dishes</a>
+                <a href='#doChay'>Do Chay</a>
+                <a href='#loMein'>Lo Mein</a>
+                <a href='#kidsPho'>Kid's Pho</a>
+                <a href='#beverages'>Beverages</a>
+                <a href='#chefSpecials'>Chef Specials</a>
+            </div>
             <div className="menu--container">
 
                 {/* <div className="bg--fade"></div>
                 <div className="menu--bg--container"></div> */}
-                <ul className="appetizers menu--category">
+                <ul id='appetizers' className="appetizers menu--category">
                     <div className="app--background banner--holder">
                         <div className="category--banner">
                             <h1>Appetizers</h1>
@@ -45,7 +67,7 @@ const Menu = () => {
                     {getMenuItems(menuDir.phoBowls)}
                 </ul>
 
-                <ul className="noodles menu--category">
+                <ul id='noodles' className="noodles menu--category">
                     <div className="noodles--background banner--holder">
                         <div className="category--banner">
                             <h1>Noodles</h1>

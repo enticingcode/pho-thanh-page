@@ -1,26 +1,30 @@
 export const appetizers = [
     {
         id: "a1",
-        name: "Goi cuon (Fresh Spring Roll)",
+        name: "Goi cuon",
+        engName: "Fresh Spring Roll",
         description: "Shrimp, pork, lettuce, rice noodle paper w/ peanut sauce",
         price: 4.50
     },
     {
         id: "a2",
-        name: "Goi Cuon Nem Nuong(Fresh Special Spring roll) (2 Rolls)",
+        name: "Goi Cuon Nem Nuong",
+        engName: "Fresh Special Spring roll (2 Rolls)",
         description: "Pork patty, lettuce and rice noodle wrapped in rice pepper with peanut sauce",
         price: 4.95
     },
     {
         id: "a3",
-        name: "Cha Gio (Fried Egg Roll) (2 Rolls)",
+        name: "Cha Gio",
+        engName: "Fried Egg Roll (2 Rolls)",
         description: "Fried roll with ground pork, carrot, taro, cilantro, and onion",
         price: 4.50
     },
 
     {
         id: "a4",
-        name: "Canh Ga Chien (Chicken Wing) (6 Pieces)",
+        name: "Canh Ga Chien",
+        engName: "Chicken Wing (6 Pieces)",
         description: "Spicy Chicken Wings",
         price: 7.95
     },
@@ -32,13 +36,15 @@ export const appetizers = [
     },
     {
         id: "a6",
-        name: "Goi Cuon Thit Nuong(Grilled Pork Spring Roll)(2 Rolls)",
+        name: "Goi Cuon Thit Nuong",
+        engName: "Grilled Pork Spring Roll (2 Rolls)",
         description: "Grilled pork, lettuce and rice noodle wrapped in rice paper with fish sauce.",
         price: 4.95
     },
     {
         id: "a7",
-        name: "Goi Cuon Bi (Shredded Pork Spring Roll) (2 Rolls)",
+        name: "Goi Cuon Bi",
+        engName: "Shredded Pork Spring Roll (2 Rolls)",
         description: "Shredded pork, lettuce and rice paper wrapped in rice paper with fish sauce.",
         price: 4.95
     },
