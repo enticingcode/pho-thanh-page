@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="ct--container2">
                 <section className="contact--info">
                     <h1>Contact Details</h1>
-                    <p>Location</p>
+                    <p>Location:</p>
                     <p>637 E Joyce Blvd, Fayetteville, AR 72703</p>
                     <a href="tel:4799664200">Phone: (479) 966-4200</a>
                 </section>

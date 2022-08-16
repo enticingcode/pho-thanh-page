@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 import phoThanhLogo from "../assets/images/pho-logo.png"
 import "../styles/Nav.css"
@@ -35,7 +35,7 @@ function Nav() {
                 className="logo-link"
                 onClick={toggleActive}>
                 <div className="nav--logo">
-                    <img className="logo--pic" src={phoThanhLogo}></img>
+                    <img alt='Pho Thanh Logo' className="logo--pic" src={phoThanhLogo}></img>
                     <h1>II</h1>
                 </div>
             </NavLink>

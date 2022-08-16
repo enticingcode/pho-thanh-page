@@ -10,7 +10,7 @@ import "../styles/ImageCarousel.css"
 // Import Swiper styles
 import 'swiper/css';
 
-export default () => {
+let imgSlider = () => {
     return (
         <Swiper
             modules={[Scrollbar, Navigation]}
@@ -28,6 +28,9 @@ export default () => {
         </Swiper>
     );
 };
+
+export default imgSlider
+
 
 
 

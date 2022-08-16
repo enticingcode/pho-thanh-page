@@ -1,8 +1,6 @@
 import React from 'react'
 import * as menuDir from "./MenuData"
 import "../styles/Menu.css"
-import chevronUp from "../assets/images/chevronUp.svg"
-import chevronDown from "../assets/images/chevronDown.svg"
 
 
 const Menu = () => {

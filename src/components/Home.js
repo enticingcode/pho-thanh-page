@@ -17,14 +17,14 @@ const Home = () => {
                         method="GET"
                         action="https://www.facebook.com/pages/Pho-Thanh-II/198371247193448">
                         <button>
-                            <img src={facebookLogo}></img>
+                            <img alt='facebook logo link' src={facebookLogo}></img>
                         </button>
                     </form>
                     <form target="_blank"
                         method="GET"
                         action="https://www.yelp.com/biz/pho-thanh-ii-fayetteville?osq=pho+thanh+ii">
                         <button>
-                            <img src={yelpLogo}></img>
+                            <img alt='yelp logo link' src={yelpLogo}></img>
                         </button>
                     </form>
                 </div>
